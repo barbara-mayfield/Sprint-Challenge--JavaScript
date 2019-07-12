@@ -14,6 +14,11 @@ class Dinosaur {
     this.length = dino.length;
     this.period = dino.period;
     }
+
+  roar(){
+    return `${this.name} says "RAWERSRARARWERSARARARRRR!"`
+  };
+
 }
 
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
@@ -59,7 +64,7 @@ console.log(trex.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+console.log(trex.roar());
 
 
 // ==== Arrays ====
