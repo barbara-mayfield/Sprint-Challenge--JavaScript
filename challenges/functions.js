@@ -8,7 +8,7 @@
 */
 
  function consume(a, b, callback) {
-   return callback(a, b);
+  return a, b, callback();
  };
 
 /* Step 2: Create several functions to callback with consume();
@@ -26,7 +26,7 @@ function multiply(a, b) {
 }
 
 function greeting(first, last) {
-  return `Hello ${first} ${last}, nice to meet you!`
+  return `Hello ${first} ${last}, nice to meet you!`;
 }
 
 
