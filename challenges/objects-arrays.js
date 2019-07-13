@@ -99,6 +99,9 @@ Name email@example.com
 
 Log the result of your new array. */
 const contactInfo = [];
+graduates.map(graduate => {
+  contactInfo.push(`${graduate.first_name}  ${graduate.email}`);
+});
 console.log(contactInfo);
 
 
