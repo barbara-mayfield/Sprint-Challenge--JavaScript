@@ -8,7 +8,7 @@
 */
 
  function consume(a, b, callback) {
-  return a, b, callback();
+  return callback(a, b);
  };
 
 /* Step 2: Create several functions to callback with consume();
